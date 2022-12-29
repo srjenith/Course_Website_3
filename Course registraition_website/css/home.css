@@ -1,0 +1,46 @@
+
+
+
+.home{
+    display: flex;
+    align-items:center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: url(../images/home-bg.jpg);
+    /* border-bottom:4px solid black ; */
+}
+
+.home .content{
+   display: inline-block;
+}
+
+ .home .content h3{
+    font-size: 50px;
+    background:linear-gradient(30deg, #eed152, #e73c3c, #23a6d5, #23d5ab) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+
+ 
+} 
+
+.home .content span{
+    font-size: 3.5rem;
+    /* color:var(--blue); */
+    padding:1rem 0;
+    /* line-height: 1.5; */
+
+    background:linear-gradient(50deg, #e9c72ed7, #e73c3c, #23a6d5, #23d5ab) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    /* color:black; */
+    padding:1rem 0;
+    /* line-height: 1.5; */
+    background:linear-gradient(20deg, #eed152, #e73c3c, #23a6d5, #23d5ab) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
